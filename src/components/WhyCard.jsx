@@ -1,8 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
+// importing aos
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const WhyCard = ({ icon, shadow, title, content }) => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
-    <div className="w-110 text-center inter text-white md:px-5 md:py-5">
+    <div
+      data-aos="zoom-in"
+      data-aos-duration="3000"
+      className="w-110 text-center inter text-white md:px-5 md:py-5"
+    >
       <div
         style={{ backgroundColor: "rgba(255, 255, 255, 0.08)" }}
         className="flex flex-col items-center h-65 w-65 px-4 py-8 rounded-xl"

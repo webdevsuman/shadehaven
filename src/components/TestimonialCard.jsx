@@ -1,9 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import whiteQuote from "../assets/quoteWhite.png";
+// importing aos
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const TestimonialCard = ({ active, icon, stars, content, author, job }) => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
-    <div className="text-left inter text-[#333333]">
+    <div
+      data-aos="flip-left"
+      data-aos-duration="3000"
+      className="text-left inter text-[#333333]"
+    >
       <div
         style={{
           backgroundColor: `${active ? "#31B4C9" : "white"}`,

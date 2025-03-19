@@ -1,9 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import pdfImg from "../assets/pdf.svg";
+// importing aos
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const CarouselFeatures = ({ img, title, content }) => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
-    <div className="md:w-70 inter text-left">
+    <div
+      data-aos="fade-up"
+      data-aos-duration="3000"
+      className="md:w-70 inter text-left"
+    >
       <img className="md:h-60" src={img} alt="" />
       <h3 className="font-semibold my-2">{title}</h3>
       <p className="text-xs mb-2">{content}</p>

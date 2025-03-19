@@ -14,7 +14,7 @@ const Footer = () => {
   return (
     <div className=" md:px-10 inter text-white">
       <div className="bg-[#15203A] rounded-xl py-10 px-30">
-        <div className=" flex justify-between gap-20 mb-10">
+        <div className=" flex flex-wrap justify-start md:justify-between gap-20 mb-10">
           <div className="w-60">
             <img className="w-50" src={brand} alt="" />
             <p className="text-xs mt-4">
@@ -89,7 +89,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className="flex justify-between">
+        <div className="flex flex-wrap gap-5 justify-between">
           <div>
             <h2 className="capitalize font-semibold">
               Subscribe us for more update & news !!

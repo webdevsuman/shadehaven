@@ -3,7 +3,7 @@ import FeatureCarousel from "./FeatureCarousel";
 
 const Features = () => {
   return (
-    <div className="px-5 md:px-10">
+    <div className="px-5 md:px-10 mb-50 md:mb-0">
       <div className="relative bg-[url('/src/assets/FeaturesBg.png')] h-[150px] md:h-[700px] w-full bg-contain bg-no-repeat md:px-50 md:py-20 text-center">
         <h3
           style={{ letterSpacing: 5 }}

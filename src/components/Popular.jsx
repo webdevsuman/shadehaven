@@ -9,7 +9,7 @@ import cat3 from "../assets/cat3.svg";
 
 const Popular = () => {
   return (
-    <div className="px-5  md:px-60 md:py-20">
+    <div className="px-5 md:px-60 md:py-20 mb-300 md:mb-0">
       <h3
         style={{ letterSpacing: 5 }}
         className="uppercase inter text-[#31B4C9]"
@@ -19,7 +19,7 @@ const Popular = () => {
       <h2 className="text-3xl">
         Popular <span className="font-semibold">Categories</span>
       </h2>
-      <div className="flex gap-10 justify-center md:mt-10 mt-5">
+      <div className="flex flex-col md:flex-row gap-10 justify-center md:mt-10 mt-5">
         <PopularCards
           bg={bg1}
           icon={cat1}

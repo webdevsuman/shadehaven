@@ -9,7 +9,7 @@ import ovalImg3 from "../assets/Ellipse 7212.svg";
 
 const About = () => {
   return (
-    <div className="flex py-20 justify-center gap-3">
+    <div className="flex flex-col md:flex-row md:my-0 mt-70 mb-30 md:py-20 justify-center gap-10 md:gap-3">
       <FeatureCard
         active={false}
         icon={icon1}
