@@ -13,7 +13,7 @@ const FeatureCard = ({ active, icon, shadow, title, content }) => {
       data-aos-duration="3000"
       className={`${
         active ? "bg-[#31b4c9]" : "bg-white"
-      } md:px-10 px-5 md:py-10 w-95 md:w-110 text-center inter rounded-2xl mx-5 md:mx-0`}
+      } md:px-10 px-5 md:py-10 w-95 md:w-110 text-center inter md:rounded-2xl`}
     >
       <div className="flex flex-col items-center">
         <div className="relative h-20 w-20">

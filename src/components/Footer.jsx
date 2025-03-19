@@ -13,7 +13,7 @@ import {
 const Footer = () => {
   return (
     <div className=" md:px-10 inter text-white">
-      <div className="bg-[#15203A] rounded-xl py-10 px-30">
+      <div className="bg-[#15203A] md:rounded-xl py-10 md:px-30 px-10">
         <div className=" flex flex-wrap justify-start md:justify-between gap-20 mb-10">
           <div className="w-60">
             <img className="w-50" src={brand} alt="" />

@@ -1,16 +1,13 @@
 import React from "react";
 import { MdOutlineArrowOutward } from "react-icons/md";
+import heroImg from "../assets/heroBg.png";
 
 const Hero = () => {
   return (
     <div className="md:px-10 px-5 h-full">
       <div className="md:relative md:bg-[url('/src/assets/heroBg.png')] h-[150px] md:h-[560px] w-full bg-contain bg-no-repeat p-1">
         <div className="md:text-white text-center md:text-left inter md:absolute md:bottom-0 md:left-0 md:pl-40 md:pb-10 mb-5 md:mb-0">
-          <img
-            className="md:hidden mb-5"
-            src="/src/assets/heroBg.png"
-            alt="heroImg"
-          />
+          <img className="md:hidden mb-5" src={heroImg} alt="heroImg" />
           <h2
             style={{ letterSpacing: 5 }}
             className="text-xs md:text-[16px] font-bold uppercase md:pl-1.5"
