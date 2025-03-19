@@ -1,12 +1,19 @@
-# React + Vite
+// Task-1----
+Convert Figma design to HTML(done)
+Design the website using Tailwind CSS(done)
+90% match should be there(check)
+Responsiveness is optional(check)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
+// Tasks-2----
+React js portfolio task :
 
-Currently, two official plugins are available:
+Seo optimization
+Meta tag fix -opengraph.xyz (done)
+robot.txt -(done)
+sitemap.xml -(done)
+Open graph fix - (done)
+Seo schema for all page - (done)
+Eslint -.eslintrc.json added, rules added, run "npx eslint src --fix" as well.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Sanity cms -not done due to not having api in my project|
